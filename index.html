@@ -1,1 +1,235 @@
-Test index file
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ravatsinh Sisodiya - Expert Full-Stack Developer with 10+ years of experience in Laravel, CodeIgniter, Livewire, Vue, Angular, AWS, and DevOps. Discover top-notch digital solutions with precision and expertise.">
+    <meta name="keywords" content="Ravatsinh, Ravatsinh Sisodiya, Full-Stack Developer, Laravel Expert, PHP Developer, Angular Developer, Vue.js Developer, Ionic Developer, Electron.js Developer, AWS Specialist, DevOps Engineer, CI/CD Expert">
+    <meta name="author" content="Ravatsinh Sisodiya">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ravatsinh.com">
+   <!-- <meta property="og:title" content="Ravatsinh Sisodiya - Full-Stack Developer">
+    <meta property="og:description" content="Explore the portfolio of Ravatsinh Sisodiya, a Full-Stack Developer specializing in Laravel, Angular, Vue, AWS, and cutting-edge digital solutions.">
+    <meta property="og:url" content="https://ravatsinh.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ravatsinh.com/preview-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ravatsinh Sisodiya - Full-Stack Developer">
+    <meta name="twitter:description" content="Creating seamless digital solutions with expertise in Laravel, Angular, Vue, and more.">
+    <meta name="twitter:image" content="https://ravatsinh.com/preview-image.jpg">
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
+     -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #121212;
+            color: #f5f5f5;
+            overflow-x: hidden;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: #00d4ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ffaa00;
+        }
+        button {
+            cursor: pointer;
+        }
+
+        /* Header Section */
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #16213e, #0f3460);
+            position: relative;
+            overflow: hidden;
+        }
+        header h1 {
+            font-size: 4rem;
+            color: #00d4ff;
+            text-shadow: 0px 5px 15px rgba(0, 212, 255, 0.7);
+            animation: zoomIn 1.5s ease;
+        }
+        header p {
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            text-align: center;
+            color: #f5f5f5;
+            animation: fadeInUp 2s ease;
+        }
+        .hero-buttons {
+            margin-top: 2rem;
+            animation: fadeInUp 2.5s ease;
+        }
+        .hero-buttons button {
+            background: #00d4ff;
+            border: none;
+            color: #121212;
+            padding: 0.8rem 1.5rem;
+            margin: 0 0.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .hero-buttons button:hover {
+            background: #ffaa00;
+            transform: scale(1.1);
+        }
+
+        /* Skills Section */
+        .skills {
+            padding: 4rem 1rem;
+            background: linear-gradient(135deg, #0f3460, #16213e);
+        }
+        .skills h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #00d4ff;
+            margin-bottom: 2rem;
+            animation: slideInDown 1.5s ease;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .skill-card {
+            background: #1a1a2e;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+            animation: fadeIn 2s ease;
+        }
+        .skill-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.5);
+        }
+        .skill-card h3 {
+            font-size: 1.8rem;
+            color: #ffaa00;
+            margin-bottom: 1rem;
+        }
+        .skill-card p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #f5f5f5;
+        }
+
+        /* Animations */
+        @keyframes zoomIn {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes slideInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NQWG7RJ34E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NQWG7RJ34E');
+</script>
+</head>
+<body>
+    <header>
+        <h1>Ravatsinh</h1>
+        <p>"Full-Stack Developer | Creating seamless digital solutions with precision and expertise."</p>
+        <div class="hero-buttons">
+            <button>Explore My Work</button>
+            <button>Contact Me</button>
+        </div>
+    </header>
+
+    <section class="skills">
+        <h2>My Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Backend Development</h3>
+                <p>Mastery in PHP frameworks like Laravel, CodeIgniter, CakePHP, and Livewire.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Frontend Development</h3>
+                <p>Creating dynamic user interfaces with Angular, Vue, Bootstrap, and jQuery.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Mobile Development</h3>
+                <p>Cross-platform app development expertise with Ionic.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Desktop Applications</h3>
+                <p>Innovative desktop apps using Electron.js.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Cloud & Servers</h3>
+                <p>Hands-on experience with AWS, Cloudflare, Linux servers, cPanel, and WHM.</p>
+            </div>
+            <div class="skill-card">
+                <h3>DevOps</h3>
+                <p>Streamlined CI/CD with TeamCity and other automation tools.</p>
+            </div>
+            <div class="skill-card">
+                <h3>API Integrations</h3>
+                <p>Seamless API design and integration expertise for various platforms.</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript & Node.js</h3>
+                <p>Proficiency in Node.js and advanced JavaScript applications.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
